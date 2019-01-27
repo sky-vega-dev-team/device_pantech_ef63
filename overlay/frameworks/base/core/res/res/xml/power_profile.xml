@@ -2,8 +2,9 @@
 <device name="Android">
     <item name="none">0</item>
     <item name="cpu.idle">2.8</item>
-    <item name="cpu.awake">26</item>
-    <array name="cpu.speeds">
+    <item name="cpu.active">26</item>
+    <item name="cpu.clusters.cores">4</item>
+    <array name="cpu.core_speeds.cluster0"> 
         <value>300000</value>
         <value>422400</value>
         <value>652800</value>
@@ -19,7 +20,7 @@
         <value>1958400</value>
         <value>2265600</value>
     </array>
-    <array name="cpu.active">
+    <array name="cpu.core_power.cluster0">
         <value>86</value>
         <value>103</value>
         <value>121</value>
