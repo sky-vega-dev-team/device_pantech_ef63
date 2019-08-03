@@ -35,7 +35,9 @@ on early-boot
     chmod 0660 /sys/class/leds/pan_tm_led/brightness
 
 service light-hal-2-0 /vendor/bin/hw/android.hardware.light@2.0-service.msm8974
+    interface android.hardware.light@2.0::ILight default 
     class hal
     user system
     group system
+    # shutting off lights while powering-off
     shutdown critical 
