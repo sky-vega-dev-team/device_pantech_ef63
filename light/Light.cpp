@@ -32,9 +32,9 @@ namespace implementation {
 
 #define LCD_LED         LEDS "lcd-backlight/"
 #define BUTTON_LED      LEDS "pan_tm_led/"
-#define RED_LED         LEDS "rgb_red/"
-#define GREEN_LED       LEDS "rgb_green/"
-#define BLUE_LED        LEDS "rgb_blue/"
+#define RED_LED         LEDS "led:rgb_red/"
+#define GREEN_LED       LEDS "led:rgb_green/"
+#define BLUE_LED        LEDS "led:rgb_blue/"
 
 #define BRIGHTNESS      "brightness"
 
