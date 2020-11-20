@@ -17,4 +17,4 @@ Dimensions | 144.2 x 73.5 x 7.9mm - 152g(Black), 153g(White)
 Camera  | 13M wide OIS / 2.1M FULL HD
 
 
-![SKY VEGA IRON 2](http://pantech.co.kr/cmm/fms/getImage.do?atchFileId=FILE_000000000008005&fileSn=1 "SKY VEGA IRON2")
+![SKY VEGA IRON 2](https://github.com/rlawoehd187/device_images/blob/main/Iron2.jpg?raw=true "SKY VEGA IRON2")
