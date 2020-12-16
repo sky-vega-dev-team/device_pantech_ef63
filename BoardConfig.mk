@@ -19,16 +19,13 @@ PLATFORM_PATH := device/pantech/ef63
 -include device/pantech/msm8974-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := ef63l,ef63s,ef63k
+TARGET_OTA_ASSERT_DEVICE := ef63l,ef63s,ef63k,ef63
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(PLATFORM_PATH)/bluetooth
 
 # Kernel
 TARGET_KERNEL_CONFIG := LineageOS_ef63_defconfig
-
-# ReleaseTools
-TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)/releasetools
 
 # Properties
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
