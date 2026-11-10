@@ -1,7 +1,5 @@
 # Camera
-lib/hw/camera.msm8974.so:vendor/lib/hw/camera.msm8974.so
 lib/libmm-qcamera.so
-lib/libmmcamera_interface.so
 lib/libmmcamera_rohm_eeprom.so
 lib/libmmcamera_rumba_sa_eeprom.so
 lib/libmmcamera_s5k6b2yx.so
