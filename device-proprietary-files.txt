@@ -24,6 +24,14 @@ etc/firmware/venus.b04:vendor/firmware/venus.b04
 etc/firmware/venus.mbn:vendor/firmware/venus.mbn
 etc/firmware/venus.mdt:vendor/firmware/venus.mdt
 
+# Video firmware signed for the K and L, put in place on install by releasetools
+vendor/etc/firmware_ef63k/venus.b01
+vendor/etc/firmware_ef63k/venus.mbn
+vendor/etc/firmware_ef63k/venus.mdt
+vendor/etc/firmware_ef63l/venus.b01
+vendor/etc/firmware_ef63l/venus.mbn
+vendor/etc/firmware_ef63l/venus.mdt
+
 # Sensors
 bin/sensors.qcom:vendor/bin/sensors.qcom
 lib/libsnsutils.so

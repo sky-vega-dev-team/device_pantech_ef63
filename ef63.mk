@@ -17,6 +17,10 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# Variant firmware
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/releasetools/device_check.sh:install/bin/device_check.sh
+
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lineage.build.vendor_security_patch=2016-09-01
